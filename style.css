@@ -1,0 +1,205 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 23px auto;
+    width: 80%;
+    min-height: 67vh;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 35px;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+.bg-img img{
+    border-radius: 15px;
+    margin-top: 125px;
+}
+
+.hero-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom:0;
+    color: white;
+    
+}
+
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
+
+.icons{
+    font-size: 28px;
+    display: flex;
+    gap: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 12px 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.SongName{
+    font-weight: bolder;
+}
+
+.songItem img{
+    border-radius: 50%;
+}
+
+.songlist{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.SongDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+   
+}
+
+.SongNaam{
+    font-size: 30px;
+}
+
+#gif{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+ 
+
+
+  @media (min-width: 319px) and (max-width: 480px) 
+  {
+    body{
+        overflow-x:hidden;
+    }
+    .bg-img img{
+       display: none;
+    }
+    .SongNaam{
+        display: none;
+    }
+    /* .icons{
+        gap: 15px;
+    } */
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #gif{
+        display: none;
+    }
+    .timestamp{
+        display: flex;
+        gap: 2px;
+    }
+    
+    
+
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) 
+  {
+    body{
+        overflow-x:hidden;
+    }
+    .bg-img img{
+       display: none;
+    }
+    .SongNaam{
+        display: none;
+    }
+    /* .icons{
+        gap: 15px;
+    } */
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #gif{
+        display: none;
+    }
+    .timestamp{
+        display: flex;
+        gap: 2px;
+    }
+  }
+
+ 
+
+
